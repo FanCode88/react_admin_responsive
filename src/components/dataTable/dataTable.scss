@@ -1,0 +1,24 @@
+.dataTable {
+  .dataGrid {
+    background: #fff;
+    padding: 20px;
+
+    img {
+      width: 34px;
+      height: 34px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+
+    .action {
+      display: flex;
+      gap: 15px;
+
+      img {
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+      }
+    }
+  }
+}
